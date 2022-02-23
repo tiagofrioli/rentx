@@ -1,4 +1,4 @@
-import { Button } from "react-native";
+import { BorderlessButton } from "react-native-gesture-handler";
 import styled from "styled-components/native";
 
-export const Container = styled(Button)``;
+export const Container = styled(BorderlessButton)``;
