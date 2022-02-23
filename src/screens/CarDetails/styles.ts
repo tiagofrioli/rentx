@@ -68,3 +68,12 @@ export const Price = styled.Text`
   font-size: ${RFValue(25)}px;
   text-transform: uppercase;
 `;
+
+export const ContainerAcessories = styled.View`
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+`;

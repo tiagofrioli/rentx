@@ -1,10 +1,12 @@
 import React from "react";
 import { BackButton } from "../../components/BackButton";
+import { CardAcessory } from "../../components/CardAcessory";
 import { ImageSlider } from "../../components/ImageSlider";
-
+import SpeedSvg from "../../assets/speed.svg";
 import {
   Brand,
   Container,
+  ContainerAcessories,
   ContainerCarImage,
   Content,
   Description,
@@ -41,6 +43,14 @@ export function CarDetails() {
             <Price>R$ 580</Price>
           </Rent>
         </Details>
+        <ContainerAcessories>
+          <CardAcessory name="380Km/h" icon={SpeedSvg} />
+          <CardAcessory name="380Km/h" icon={SpeedSvg} />
+          <CardAcessory name="380Km/h" icon={SpeedSvg} />
+          <CardAcessory name="380Km/h" icon={SpeedSvg} />
+          <CardAcessory name="380Km/h" icon={SpeedSvg} />
+          <CardAcessory name="380Km/h" icon={SpeedSvg} />
+        </ContainerAcessories>
       </Content>
     </Container>
   );
