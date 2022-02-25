@@ -1,4 +1,5 @@
 import React from "react";
+import { Text } from "react-native";
 import { BackButton } from "../../components/BackButton";
 import { CardAcessory } from "../../components/CardAcessory";
 import { ImageSlider } from "../../components/ImageSlider";
@@ -16,7 +17,9 @@ import {
   Period,
   Price,
   Rent,
+  Footer,
 } from "./styles";
+import { Button } from "../../components/Button";
 
 export function CarDetails() {
   return (
@@ -51,7 +54,19 @@ export function CarDetails() {
           <CardAcessory name="380Km/h" icon={SpeedSvg} />
           <CardAcessory name="380Km/h" icon={SpeedSvg} />
         </ContainerAcessories>
+        <Text>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati id
+          dolore recusandae architecto libero tenetur voluptate, eius atque,
+          incidunt nihil excepturi quam! Molestiae cum quos numquam officiis
+          obcaecati eum distinctio. Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. Obcaecati id dolore recusandae architecto libero
+          tenetur voluptate, eius atque, incidunt nihil excepturi quam!
+          Molestiae cum quos numquam officiis obcaecati eum distinctio.
+        </Text>
       </Content>
+      <Footer>
+        <Button title="Confirmar" />
+      </Footer>
     </Container>
   );
 }
