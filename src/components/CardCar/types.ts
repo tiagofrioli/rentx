@@ -1,3 +1,5 @@
+import { RectButtonProps } from "react-native-gesture-handler";
+
 interface CardCar {
   brand: string;
   name: string;
@@ -8,6 +10,6 @@ interface CardCar {
   thumbnail: string;
 }
 
-export interface CardProps {
+export interface CardProps extends RectButtonProps {
   data: CardCar;
 }

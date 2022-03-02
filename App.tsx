@@ -1,3 +1,4 @@
+import "react-native-gesture-handler";
 import { StatusBar } from "expo-status-bar";
 import React from "react";
 
@@ -18,6 +19,8 @@ import theme from "./src/styles/theme";
 import { ThemeProvider } from "styled-components/native";
 import { CarDetails } from "./src/screens/CarDetails";
 import { Scheduling } from "./src/screens/Scheduling";
+import { SchedulingDetails } from "./src/screens/SchedulingDetails";
+import { Routes } from "./src/navigation";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -34,7 +37,7 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Scheduling />
+      <Routes />
     </ThemeProvider>
   );
 }

@@ -14,9 +14,9 @@ import {
 } from "./styles";
 import { CardProps } from "./types";
 
-export function CardCar({ data }: CardProps) {
+export function CardCar({ data, ...rest }: CardProps) {
   return (
-    <Container>
+    <Container {...rest}>
       <Details>
         <Brand>{data.brand}</Brand>
         <Name>{data.name}</Name>
