@@ -1,5 +1,8 @@
 export type RootStackParamList = {
-  CarDetails: {
+  Home: {
     name: string;
+  };
+  CarDetails: {
+    option: string;
   };
 };
