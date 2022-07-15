@@ -9,6 +9,7 @@ export type RootStackParamList = {
   Scheduling: {} | undefined;
   SchedulingDetails: {} | undefined;
   Confirmation: {} | undefined;
-  /* MyCars: undefined;
+  MyCars: undefined;
+  /* 
   Profile: undefined; */
 };
